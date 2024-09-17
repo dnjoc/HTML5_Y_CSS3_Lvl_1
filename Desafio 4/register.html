@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header style="background-color: #af7767; ">
+        <picture>
+            <img src="./img/calentamiento.jpg" height="100px" width="150px" alt="Mundo">
+        </picture>
+        <nav>
+            <span><a href="./index.html">Ir a Home</a></span>
+        </nav>
+        <picture>
+            <img src="./img/calentamiento.jpg" height="100px" width="150px" alt="Mundo">
+        </picture>
+    </header>
+    <h1 style="text-align: center;">Registro</h1>
+    <main id="mainRegistro">
+        <form class="formRegister" name="Registro" action="" method="get">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="lastname">Apellido: </label>
+                <input type="text" name="lastname" id="lastname" required maxlength="10">
+            </div>
+            <div>
+                <label for="clave">Clave: </label>
+                <input type="password" name="clave" id="clave" required>
+            </div>
+            <div>
+                <label for="correo">Correo: </label>
+                <input type="email" name="correo" id="correo" required>
+            </div>
+            <div>
+                <label for="sexo">Sexo: </label>
+                <select name="sexo" id="sexo">
+                    <option value="1">Seleccione</option>
+                    <option value="2">Femenino</option>
+                    <option value="3">Masculino</option>
+                </select>
+            </div>
+            <div>
+                <label for="preferencias">Preferencias: </label>
+                <div>
+                    <input type="checkbox" name="pref1" value="1" id="">Playa
+                </div>
+                <div>
+                    <input type="checkbox" name="pref2" value="2" id="">Rio
+                </div>
+                <div>
+                    <input type="checkbox" name="pref3" value="3" id="">Piscina
+                </div>
+                <div>
+                    <input type="checkbox" name="pref4" value="4" id="">Campo
+                </div>
+                <div>
+                    <input type="checkbox" name="pref5" value="5" id="">Montaña
+                </div>
+            </div>
+            <div>
+                <label for="estadocivil">Estado Civil: </label>
+                <div>
+                    <input type="radio" name="estadocivil" value="1" id="">Soltero
+                </div>
+                <div>
+                    <input type="radio" name="estadocivil" value="2" id="">Casado
+                </div>
+                <div>
+                    <input type="radio" name="estadocivil" value="3" id="">Divorciado
+                </div>
+                <div>
+                    <input type="radio" name="estadocivil" value="4" id="">Viudo
+                </div>
+                <div>
+                    <input class="btnForm" type="submit" value="Enviar">
+                    <input calss="btnForm" type="reset" value="Limpiar Datos">
+                </div>
+            </div>
+        </form>
+
+    </main>
+    <br><br><br><br>
+    <footer id="Final">
+        <span>&copy 2023 Daniel Castellanos</span>
+    </footer>
+</body>
+
+</html>

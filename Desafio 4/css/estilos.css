@@ -1,0 +1,208 @@
+/*Regla de estilo Universal*/
+
+* {
+    font-family: 'Monserrat Alernates';
+}
+
+.contenedordelista li {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header picture {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+}
+
+/*Fin del header*/
+
+/*main*/
+h1,
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+.divImg {
+    text-align: center;
+}
+
+/*Seccion de Listas*/
+.contenedordelista {
+    width: 60vw;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+#ol1 {
+    list-style: upper-roman;
+}
+
+#ol2 {
+    list-style: lower-roman;
+}
+
+#ol3 {
+    list-style-image: url("../img/e-icon.png");
+}
+
+#ul1 {
+    list-style: initial;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToaXWktpX74KExeozI75rXtZs2s1zeRowsAg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ul2 {
+    list-style: circle;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+/*estilos tabla*/
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+table {
+    animation: myAnim 2s ease 0s 2 normal forwards;
+    border-collapse: collapse;
+    position: relative;
+    top: 80px;
+}
+
+th {
+    padding: 10px;
+}
+
+th,
+td {
+    border: 2px solid black;
+}
+
+/*Fin tabla*/
+
+/* edicion de formulario*/
+#mainRegistro{
+    display: flex;
+    justify-content: center;
+}
+
+main form[name="Registro"] {
+    padding: 20px 45px;
+    border: black solid 3px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgb(29, 65, 101);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e3e9e8;
+    width: 40%;
+    height: 55vh;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type="text"]{
+    border: rgb(93, 48, 199) solid 3px;
+}
+
+input[type="password"]{
+    border: rgb(134, 79, 176) solid 3px;
+}
+
+input[type="email"]{
+    border: rgb(134, 79, 176) solid 3px;
+}
+
+input[type="submit"]{
+    background-color: rgb(32, 32, 193);
+    color: wheat;
+    padding: 10px 18px;
+    border: solid 1px   blue;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    box-shadow: 0 2px 10px #40f5f2;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+input[type="reset"]{
+    background-color: rgb(185, 35, 35);
+    color: wheat;
+    padding: 10px 18px;
+    border: solid 1px   rgb(255, 0, 0);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="reset"]:hover{
+    box-shadow: 0 2px 10px #f55840;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+/*Fin del Main*/
+
+#imgCalentamientoG {
+    height: 70vh;
+    width: 80vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer picture {
+    display: inline-block;
+}
