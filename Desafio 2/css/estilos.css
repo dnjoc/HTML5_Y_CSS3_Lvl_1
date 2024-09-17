@@ -1,0 +1,55 @@
+/*Regla de estilo Universal*/
+*{
+    font-family: 'Segoe UI';
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header picture{
+    display: inline-block;
+}
+header nav{
+    display: inline-block;
+}
+
+/*Fin del header*/
+
+/*main*/
+
+h1, h2, h3, h4, p {
+    text-align: center;
+}
+
+.divImg {
+    text-align: center;
+}
+
+/*Fin del Main*/
+
+#imgCalentamientoG {
+    height: 70vh;
+    width: 80vw;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer picture{
+    display: inline-block;
+}
