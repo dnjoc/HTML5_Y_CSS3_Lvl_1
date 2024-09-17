@@ -1,0 +1,92 @@
+/*Regla de estilo Universal*/
+
+*{
+    font-family: 'Monserrat Alernates';
+}
+
+.contenedordelista  li{
+    font-family: 'Orbitron', sans-serif ;
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header picture{
+    display: inline-block;
+}
+header nav{
+    display: inline-block;
+}
+
+/*Fin del header*/
+
+/*main*/
+h1, h2, h3, h4, p {
+    text-align: center;
+}
+
+.divImg {
+    text-align: center;
+}
+
+/*Seccion de Listas*/
+.contenedordelista{
+    width: 60vw;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+#ol1{
+    list-style: upper-roman;
+}
+
+#ol2{
+    list-style: lower-roman;
+}
+
+#ol3{
+    list-style-image: url("../img/e-icon.png");
+}
+
+#ul1{
+    list-style: initial;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToaXWktpX74KExeozI75rXtZs2s1zeRowsAg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ul2{
+    list-style: circle;
+    font-family: 'Orbitron', sans-serif ;
+}
+
+
+/*Fin del Main*/
+
+#imgCalentamientoG {
+    height: 70vh;
+    width: 80vw;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer picture{
+    display: inline-block;
+}
